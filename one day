@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+	</head>
+
+	<body>
+
+	</body>
+	<script type="text/javascript">
+	        
+		var n = parseInt(prompt("123132"));
+		var a1 = 1;
+		var a2 = 1;
+	   	var a3 = 0;
+	   	                 10 
+		for (var i = 3;i<=n; i++) {
+			
+			a3=a1+a2;
+				
+			a1=a2;
+			
+			a2=a3;
+		}
+	  a1 a2 a3    一次
+//	  1	 1  2  
+         a1 a2 a3  二次
+//		  1 2  3
+			a1 a2 a3
+//			2  3  5
+			   a1 a2 a3
+//			   3  5  8
+				5 8 13
+				  8 13 21
+		document.write(a3)
+	</script>
+
+</html>
